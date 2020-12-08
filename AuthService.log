@@ -1,0 +1,228 @@
+INFO  03:29:27 Application started. Press Ctrl+C to shut down.
+INFO  03:29:27 Application started. Press Ctrl+C to shut down.
+INFO  03:29:27 Hosting environment: Development
+INFO  03:29:27 Hosting environment: Development
+INFO  03:29:27 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:29:27 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:31:29 Application started. Press Ctrl+C to shut down.
+INFO  03:31:29 Application started. Press Ctrl+C to shut down.
+INFO  03:31:29 Hosting environment: Development
+INFO  03:31:29 Hosting environment: Development
+INFO  03:31:29 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:31:29 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:33:58 Application started. Press Ctrl+C to shut down.
+INFO  03:33:58 Application started. Press Ctrl+C to shut down.
+INFO  03:33:58 Hosting environment: Development
+INFO  03:33:58 Hosting environment: Development
+INFO  03:33:58 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:33:58 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:37:07 Application started. Press Ctrl+C to shut down.
+INFO  03:37:07 Hosting environment: Development
+INFO  03:37:07 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+ERROR 03:38:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Model.UserDbContext' while attempting to activate 'AuthService.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 03:38:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Model.UserDbContext' while attempting to activate 'AuthService.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  03:40:24 Application started. Press Ctrl+C to shut down.
+INFO  03:40:24 Hosting environment: Development
+INFO  03:40:24 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:40:57  login method is running
+INFO  03:40:57  user not null
+INFO  03:40:57 Token Generation initiated
+INFO  03:44:04 Application started. Press Ctrl+C to shut down.
+INFO  03:44:04 Hosting environment: Development
+INFO  03:44:04 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:49:50 Application started. Press Ctrl+C to shut down.
+INFO  03:49:50 Hosting environment: Development
+INFO  03:49:50 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:50:20  login method is running
+INFO  03:50:20  user not null
+INFO  03:50:20 Token Generation initiated
+INFO  03:53:33 Application started. Press Ctrl+C to shut down.
+INFO  03:53:33 Hosting environment: Development
+INFO  03:53:33 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:53:33  login method is running
+INFO  03:53:33  login method is running
+INFO  03:53:33  user not null
+INFO  03:53:33  user not null
+INFO  03:53:33 Token Generation initiated
+INFO  03:53:33 Token Generation initiated
+INFO  03:53:36  token is obtained
+INFO  03:53:36  token is obtained
+INFO  03:54:07  login method is running
+INFO  03:54:07  user not null
+INFO  03:54:07 Token Generation initiated
+INFO  03:54:07  token is obtained
+INFO  03:54:31 Application started. Press Ctrl+C to shut down.
+INFO  03:54:31 Hosting environment: Development
+INFO  03:54:31 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  03:55:00  login method is running
+INFO  03:55:00  user not null
+INFO  03:55:00 Token Generation initiated
+INFO  03:55:00  token is obtained
+INFO  04:47:28 Application started. Press Ctrl+C to shut down.
+INFO  04:47:28 Hosting environment: Development
+INFO  04:47:28 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  04:57:20 Application started. Press Ctrl+C to shut down.
+INFO  04:57:20 Hosting environment: Development
+INFO  04:57:20 Content root path: C:\Users\perap\source\repos\TruYum\AuthService
+INFO  04:58:13  login method is running
+INFO  04:58:13  user not null
+INFO  04:58:13 Token Generation initiated
+INFO  04:58:13  token is obtained
+INFO  05:05:13  login method is running
+INFO  05:05:13  user not null
+INFO  05:05:13 Token Generation initiated
+INFO  05:05:13  token is obtained
+INFO  05:06:38  login method is running
+INFO  05:06:38  user not null
+INFO  05:06:38 Token Generation initiated
+INFO  05:06:38  token is obtained
+INFO  05:11:24  login method is running
+INFO  05:11:24  user not null
+INFO  05:11:24 Token Generation initiated
+INFO  05:11:24  token is obtained
+INFO  05:16:09  login method is running
+INFO  05:16:10  user not null
+INFO  05:16:10 Token Generation initiated
+INFO  05:16:10  token is obtained
+INFO  05:16:12  login method is running
+INFO  05:16:12  user not null
+INFO  05:16:12 Token Generation initiated
+INFO  05:16:12  token is obtained
+INFO  05:19:08  login method is running
+INFO  05:19:08  user not null
+INFO  05:19:08 Token Generation initiated
+INFO  05:19:08  token is obtained
+INFO  05:26:13  login method is running
+INFO  05:26:13  user not null
+INFO  05:26:13 Token Generation initiated
+INFO  05:26:13  token is obtained
+INFO  05:29:51  login method is running
+INFO  05:29:51  user not null
+INFO  05:29:51 Token Generation initiated
+INFO  05:29:51  token is obtained
+INFO  05:41:06  login method is running
+INFO  05:41:06  user not null
+INFO  05:41:06 Token Generation initiated
+INFO  05:41:06  token is obtained
+INFO  05:42:50  login method is running
+INFO  05:42:50  user not null
+INFO  05:42:50 Token Generation initiated
+INFO  05:42:50  token is obtained
+INFO  05:45:22  login method is running
+INFO  05:45:22  user not null
+INFO  05:45:22 Token Generation initiated
+INFO  05:45:22  token is obtained
+INFO  05:59:35  login method is running
+INFO  05:59:35  user not null
+INFO  05:59:35 Token Generation initiated
+INFO  05:59:35  token is obtained
+INFO  06:15:45  login method is running
+INFO  06:15:45  user not null
+INFO  06:15:45 Token Generation initiated
+INFO  06:15:45  token is obtained
+INFO  06:29:46  login method is running
+INFO  06:29:46  user not null
+INFO  06:29:46 Token Generation initiated
+INFO  06:29:46  token is obtained
+INFO  06:30:29  login method is running
+INFO  06:30:29  user not null
+INFO  06:30:29 Token Generation initiated
+INFO  06:30:29  token is obtained
+INFO  06:32:37  login method is running
+INFO  06:32:37  user not null
+INFO  06:32:37 Token Generation initiated
+INFO  06:32:37  token is obtained
+INFO  07:02:07  login method is running
+INFO  07:02:07  user not null
+INFO  07:02:07 Token Generation initiated
+INFO  07:02:07  token is obtained
+INFO  07:03:57  login method is running
+INFO  07:03:57  user not null
+INFO  07:03:57 Token Generation initiated
+INFO  07:03:58  token is obtained
+INFO  07:07:48  login method is running
+INFO  07:07:48  user not null
+INFO  07:07:48 Token Generation initiated
+INFO  07:07:48  token is obtained
+INFO  07:15:05  login method is running
+INFO  07:15:05  user not null
+INFO  07:15:05 Token Generation initiated
+INFO  07:15:05  token is obtained
+INFO  07:17:32  login method is running
+INFO  07:17:32  user not null
+INFO  07:17:32 Token Generation initiated
+INFO  07:17:32  token is obtained
+INFO  07:19:43  login method is running
+INFO  07:19:43  user not null
+INFO  07:19:43 Token Generation initiated
+INFO  07:19:43  token is obtained
+INFO  07:21:36  login method is running
+INFO  07:21:36  user not null
+INFO  07:21:36 Token Generation initiated
+INFO  07:21:36  token is obtained
+INFO  07:22:24  login method is running
+INFO  07:22:24  user not null
+INFO  07:22:24 Token Generation initiated
+INFO  07:22:24  token is obtained
+INFO  07:29:25  login method is running
+INFO  07:29:25  user not null
+INFO  07:29:25 Token Generation initiated
+INFO  07:29:25  token is obtained
+INFO  07:30:36  login method is running
+INFO  07:30:36  user not null
+INFO  07:30:36 Token Generation initiated
+INFO  07:30:36  token is obtained
+INFO  07:33:45  login method is running
+INFO  07:33:45  user not null
+INFO  07:33:45 Token Generation initiated
+INFO  07:33:45  token is obtained
+INFO  07:37:35  login method is running
+INFO  07:37:35  user not null
+INFO  07:37:35 Token Generation initiated
+INFO  07:37:35  token is obtained
+INFO  07:38:41  login method is running
+INFO  07:38:41  user not null
+INFO  07:38:41 Token Generation initiated
+INFO  07:38:41  token is obtained
+INFO  07:39:59  login method is running
+INFO  07:39:59  user not null
+INFO  07:39:59 Token Generation initiated
+INFO  07:39:59  token is obtained
+INFO  07:41:03  login method is running
+INFO  07:41:03  user not null
+INFO  07:41:03 Token Generation initiated
+INFO  07:41:03  token is obtained
+INFO  07:41:40  login method is running
+INFO  07:41:40  user not null
+INFO  07:41:40 Token Generation initiated
+INFO  07:41:40  token is obtained
